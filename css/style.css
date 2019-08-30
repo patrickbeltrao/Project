@@ -129,15 +129,13 @@
 
 }
 
-#main-content{
+#section-one{
     width: 100%;
     height: 500px;
     margin: 0;
     padding: 0;
     position: relative;
-    display: grid;
-    grid-template-columns: repeat(3, 1ft);
-    grid-template-rows: (2, 2ft);
+    
 }
 
 #img-main{
@@ -145,7 +143,7 @@
     height: 100vh;
 }
 
-#main-content h2{
+#section-one h2{
     font-size: 4em;
     color: white;
     font-family: 'Lobster', cursive;
@@ -158,7 +156,7 @@
     
 }
 
-#main-content p{
+#section-one p{
     font-size: 1.5em;
     font-family: 'Hepta Slab', serif;
     color: white;
@@ -173,45 +171,63 @@
     
 }
 
+
+#section-two{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
 #section-two h2{
     font-size: 4em;
     color: white;
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    margin-top: 100px;
     position: absolute;
-    top: 0;
-    right: 550px;
+    top: -20px;
+    left: 40px;
     text-shadow: 2px 1px .5px black;
-   
+
+}
+
+#section-two p{
+    font-size: 1.2em;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    background-size: contain;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+
 }
 
 #img-main2{
     width: 100%;
     height: 100vh;
     
-    
 }
-.div-sec-two{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-
 .icons1-two{
     position: absolute;
-    right: 200px;
-    top: 180px;
-}
-
-.div-sec-two tel{
-    position: absolute;
-    right: 110px;
     top: 230px;
-    font-size: 2em;
-    color: white;
-
+    left: 70px;
 }
 
-.div-sec-two
+#section-two tel{
+    position: absolute;
+    top: 230px;
+    left: 115px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.div-sec{
+    width: 25%;
+    height: 450px;
+    top: -600px;
+    left: 50px;
+    background: rgba(0, 0, 0, .6);
+    position: relative;
+    box-shadow:  0 0 .3px .5px white;
+}
+
+
 
