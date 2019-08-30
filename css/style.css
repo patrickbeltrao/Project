@@ -153,6 +153,7 @@
     position: absolute;
     top: 0;
     right: 550px;
+    text-shadow: 2px 1px .5px black;
     
 }
 
@@ -169,4 +170,58 @@
     text-align: center;
     text-shadow: 2px 1px .5px black;
     
+}
+
+#section-two h2{
+    font-size: 4em;
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin-top: 100px;
+    position: absolute;
+    top: 0;
+    right: 550px;
+    text-shadow: 2px 1px .5px black;
+   
+}
+
+#img-main2{
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+.div-sec-two{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.icons1-two{
+    position: absolute;
+    right: 200px;
+    top: 180px;
+}
+
+.div-sec-two tel{
+    position: absolute;
+    right: 110px;
+    top: 230px;
+    font-size: 2em;
+    color: white;
+
+}
+
+#footer{
+    position: relative;
+}
+.div-footer{
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
