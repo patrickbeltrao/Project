@@ -15,7 +15,7 @@
     grid-row: repeat(300px 1ft);
     position: relative;
     background-size: cover;
-    animation: fadeIn 2s ease-in;
+    animation: fadeIn 1.5s ease-in;
     
     
 }
@@ -84,8 +84,8 @@
     padding: 30px 0 30px 0;
     font-family: Arial, Helvetica, sans-serif;
     
-
 }
+
 
 .title-nav{
     grid-column: 1 / 6;
@@ -95,7 +95,10 @@
     top: 0px;
     color: white;
     font-size: 2em;
+    
 }
+
+
 
 .menu-nav a{
     text-decoration: none;
@@ -115,6 +118,10 @@
     grid-row: 1 / 2;
     transform: translateX(100px);
     
+}
+
+input[type="checkbox"]:checked #section-one{
+    width: 100px;
 }
 
 .menu-nav:nth-child(3){
